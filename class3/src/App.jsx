@@ -24,7 +24,7 @@ const App = () => {
   }
 ];
   return (
-    <div className='h-100 w-3xl border-2 bg-gray-100 m-10 p-10 rounded-2xl absolute top-20 right-50 shadow-2xl shadow-black border-white transition- duration-10 border-dashed flex justify-center'>
+    <div className='h-100 w-3xl border-2 bg-gray-100 m-10 p-10 rounded-2xl absolute top-20 right-50 shadow-2xl shadow-black border-white transition- duration-10 border-dashed flex justify-center '>
        {User.map(function(elem){
            return <Card 
            User={elem.name}
